@@ -6,8 +6,13 @@ aliases for terraform cli
 - ta = terraform apply
 - td = terraform destroy
 
-# Installation
+# Installation Manual
 - copy .terraform-aliases to home directory(~)
 - echo "[ -f ~/.terraform_aliases ] && source ~/.terraform_aliases" >> ~/.bashrc #if mac use .zshrc instead .bashrc
+- restart terminal
+- ready for use
+
+# Installation with shell script
+- run ./install.sh
 - restart terminal
 - ready for use
